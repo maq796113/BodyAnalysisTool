@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "671568331820",
+    "project_id": "body-analysis-fyp",
+    "storage_bucket": "body-analysis-fyp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:671568331820:android:add7add23c5871e926fd89",
+        "android_client_info": {
+          "package_name": "com.example.bodyanalysistool"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "671568331820-1ds7ibj237e1nmcm09p9in1iq6kp0vl0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bodyanalysistool",
+            "certificate_hash": "e7d941b610eb26fdd7dba975714935e306a67c15"
+          }
+        },
+        {
+          "client_id": "671568331820-10sp39vatl1dnlngeolg9a1li6fa9ajh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwZaO9CCMawrxSh9cU53Fsak3FZjuZu14"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "671568331820-10sp39vatl1dnlngeolg9a1li6fa9ajh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

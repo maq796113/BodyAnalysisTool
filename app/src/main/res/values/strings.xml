@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Body Analysis Tool</string>
+    <string name="title_activity_sign_in">SignInActivity</string>
+    <string name="welcome_text1">Unlock Your Ultimate Potential with,\nBody Analysis Tool</string>
+    <string name="welcome_text2">Your Personal Gym Guru! Tailored Workouts for Your Body, Your Posture, Your Goals – Because Your Fitness Journey Deserves Precision.💪🏽</string>
+    >
+
+    <!-- OAuth 2.0 client ID from https://console.cloud.google.com/apis/credentials-->
+    <string name="web_client_id">671568331820–10sp39vatl1dnlngeolg9a1li6fa9ajh.apps.googleusercontent.com</string>
+    <string name="title_activity_main_menu">MainMenu</string>
+    <string name="title_activity_camera_xactivity">CameraXActivity</string>
+    <string name="title_activity_result">ResultActivity</string>
+    <string name="title_activity_results">ResultsActivity</string>
+    <string name="title_activity_gemini_aiactivity">GeminiAIActivity</string>>
+</resources>
