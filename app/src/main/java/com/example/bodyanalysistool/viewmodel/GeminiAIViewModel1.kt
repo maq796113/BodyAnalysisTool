@@ -1,7 +1,6 @@
 package com.example.bodyanalysistool.viewmodel
 
 import android.graphics.Bitmap
-import android.net.Uri
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.bodyanalysistool.BuildConfig
@@ -74,9 +73,9 @@ class GeminiAIViewModel1 @Inject constructor(
         }
     }
 
-    fun getSelectedBitmap(bitmapUri: Uri)  {
+    fun getSelectedBitmap(bitmapUri: String)  {
         _bitmapState.value = bitmapState.value.copy(
-            bitmapUri = bitmapUri.toString()
+            bitmapUri = bitmapUri
         )
     }
 

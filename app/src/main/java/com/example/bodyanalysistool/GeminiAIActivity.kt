@@ -4,14 +4,12 @@ import android.net.Uri
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
-import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
-import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
@@ -65,11 +63,7 @@ fun Screen(modifier: Modifier = Modifier, geminiAIViewModel: GeminiAIViewModel2 
             )
         }
         item {
-            if (geminiAIViewModel.session?.geminiAIUiState?.isLoading == true) {
-                Box(contentAlignment = Alignment.Center) {
-                    CircularProgressIndicator(modifier.padding(15.dp))
-                }
-            } else if (geminiAIViewModel.session?.geminiAIUiState?.isSuccessful == true) {
+            if (geminiAIViewModel.session?.geminiAIUiState?.isSuccessful == true) {
                 Card(
                     modifier = Modifier
                         .padding(vertical = 16.dp)
